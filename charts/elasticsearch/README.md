@@ -33,7 +33,7 @@ The following table lists the configurable parameters of the elasticsearch chart
 |              Parameter               |                             Description                             |               Default                |
 | ------------------------------------ | ------------------------------------------------------------------- | ------------------------------------ |
 | `image.repository`                   | Container image name                                                | `docker.elastic.co/elasticsearch/elasticsearch-oss` |
-| `image.tag`                          | Container image tag                                                 | `6.2.4`                              |
+| `image.tag`                          | Container image tag                                                 | `6.4.2`                              |
 | `image.pullPolicy`                   | Container pull policy                                               | `IfNotPresent`                       |
 | `master.exposeHttp`                  | Expose http port 9200 on master Pods for monitoring, etc            | `true`                               |
 | `master.replicas`                    | Master node replicas (statefulset)                                  | `3`                                  |
