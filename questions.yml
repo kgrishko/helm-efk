@@ -16,7 +16,7 @@ questions:
     type: string
     label: ElasticSearch Image Name
   - variable: elasticsearch.image.tag
-    default: "6.2.4"
+    default: "6.4.2"
     description: "Elasticsearch image tag"
     type: string
     label: Elasticsearch Image Tag
@@ -26,7 +26,7 @@ questions:
     type: string
     label: Kibana Image Name
   - variable: kibana.image.tag
-    default: "6.2.4"
+    default: "6.4.2"
     description: "Kibana image tag"
     type: string
     label: Kibana Image Tag
