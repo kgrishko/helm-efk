@@ -8,7 +8,7 @@ elasticsearch:
 
   image:
     repository: "docker.elastic.co/elasticsearch/elasticsearch-oss"
-    tag: "6.2.4"
+    tag: "6.4.2"
     pullPolicy: "IfNotPresent"
 
   terminationGracePeriodSeconds: 30  # Duration in seconds a pod needs to terminate gracefully.
@@ -62,7 +62,7 @@ kibana:
 
   image:
     repository: "docker.elastic.co/kibana/kibana-oss"
-    tag: "6.2.4"
+    tag: "6.4.2"
     pullPolicy: "IfNotPresent"
 
   commandline:
