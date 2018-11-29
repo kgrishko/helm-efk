@@ -1,4 +1,4 @@
-# Elasticsearch Chart
+# Elasticsearch Chart.
 This chart is based on the [elasticsearch/elasticsearch](https://www.docker.elastic.co/) image.
  
 # Fluent-Bit Chart
